@@ -1,0 +1,1 @@
+Add your portrait photo to this folder and name it profile-photo.jpg. The HTML already points to assets/profile-photo.jpg.

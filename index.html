@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101827" />
+  <meta name="description" content="Dolores Onwugbufor — Junior Backend and Frontend Developer building practical web applications, APIs, and responsive user experiences." />
+  <title>Dolores Onwugbufor | Backend & Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Dolores Onwugbufor home"><span class="brand-mark">D</span><span>Dolores<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav id="navMenu" class="nav-menu">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#contact" class="nav-contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span class="pulse"></span> OPEN TO JUNIOR DEVELOPER OPPORTUNITIES</div>
+        <p class="eyebrow">BACKEND ENGINEERING <span>+</span> FRONTEND DEVELOPMENT</p>
+        <h1>I build useful digital products, <em>from the API to the interface.</em></h1>
+        <p class="hero-description">I'm Dolores Onwugbufor, a TS Academy Software Development graduate and Medical Laboratory Scientist. I enjoy turning real-world problems into practical applications with thoughtful user experiences and dependable backend logic.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-secondary" href="#contact">Contact me <span>↗</span></a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/Dolores-12" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/dolores-onwugbufor/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          <a href="mailto:doloreschibuzor@gmail.com">Email <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-frame">
+          <div class="portrait-glow"></div>
+          <img id="profilePhoto" src="assets/profile 2.jpg" alt="Portrait of Dolores Onwugbufor" onerror="this.style.display='none';document.getElementById('photoFallback').style.display='grid';" />
+          <div id="photoFallback" class="photo-fallback"><span>DO</span><small>YOUR PHOTO HERE</small></div>
+          <div class="portrait-caption"><span class="caption-dot"></span><div><strong>Dolores Onwugbufor</strong><small>Developer · Lifelong learner</small></div></div>
+        </div>
+        <div class="floating-card card-code"><span class="mini-icon">&lt;/&gt;</span><div><strong>Build</strong><small>with purpose</small></div></div>
+        <div class="floating-card card-cloud"><span class="mini-icon">☁</span><div><strong>AWS</strong><small>Solutions Architect</small></div></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      </div>
+    </section>
+
+    <section class="proof-strip section-wrap">
+      <div><strong>04</strong><span>Practical applications built</span></div>
+      <div><strong>02</strong><span>Focus areas: backend + frontend</span></div>
+      <div><strong>AWS</strong><span>Solutions Architect certified</span></div>
+      <div><strong>TS</strong><span>Academy graduate</span></div>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious by nature.<br><em>Practical by design.</em></h2></div>
+      <div class="about-grid">
+        <div class="about-copy"><p>My path into software development combines analytical thinking from medical laboratory science with hands-on technical learning. After completing software development training at TS Academy, I built applications that helped me practise API design, application logic, data handling, and responsive interfaces.</p><p>I’m especially interested in junior backend and frontend opportunities where I can contribute, learn from experienced teammates, write maintainable code, and keep growing through real product work.</p><div class="values-row"><span>Problem solving</span><span>Attention to detail</span><span>Continuous learning</span></div></div>
+        <div class="focus-cards">
+          <article class="focus-card"><div class="focus-number">01</div><div class="focus-icon">⌘</div><h3>Backend development</h3><p>Building API-driven applications, organizing business logic, validating inputs, and connecting services and data.</p><div class="tag-row"><span>Node.js</span><span>Express</span><span>REST APIs</span></div></article>
+          <article class="focus-card"><div class="focus-number">02</div><div class="focus-icon">◫</div><h3>Frontend development</h3><p>Creating responsive, user-friendly interfaces and connecting UI flows to backend services.</p><div class="tag-row"><span>React</span><span>JavaScript</span><span>CSS</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills"><div class="section-wrap section-block">
+      <div class="section-heading"><p class="eyebrow">TOOLS I WORK WITH</p><h2>A growing toolkit, <em>built through practice.</em></h2><p class="section-intro">These are the technologies and tools I've used during training and project work. I'm continuing to deepen my knowledge through building and testing.</p></div>
+      <div class="skills-grid">
+        <article class="skill-group"><span class="skill-symbol">01 / API</span><h3>Backend</h3><div class="skill-chips"><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>JWT concepts</span><span>Input validation</span></div></article>
+        <article class="skill-group"><span class="skill-symbol">02 / UI</span><h3>Frontend</h3><div class="skill-chips"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Vite</span><span>Responsive design</span></div></article>
+        <article class="skill-group"><span class="skill-symbol">03 / DATA</span><h3>Data & integration</h3><div class="skill-chips"><span>MongoDB</span><span>Mongoose</span><span>PostgreSQL</span><span>API integration</span><span>Cloudinary</span></div></article>
+        <article class="skill-group"><span class="skill-symbol">04 / WORKFLOW</span><h3>Tools & cloud</h3><div class="skill-chips"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Postman</span><span>AWS</span><span>PowerShell</span></div></article>
+      </div>
+    </div></section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading project-heading"><div><p class="eyebrow">SELECTED PROJECTS</p><h2>Learning by <em>building.</em></h2></div><a class="text-link" href="https://github.com/Dolores-12" target="_blank" rel="noreferrer">View GitHub profile <span>↗</span></a></div>
+      <div class="projects-grid">
+        
+<div class="project-art store-art">
+  <img
+    src="assets/ministore.png"
+    alt="Mini Microservices Store e-commerce homepage"
+    class="project-cover"
+  />
+</div>
+<div class="project-body"><div class="project-meta"><span class="project-type">CAPSTONE PROJECT</span><span class="project-year">2026</span></div><h3>Mini Microservices Store</h3><p>A team-built e-commerce application structured around separate services for authentication, catalog, and orders, connected through an API gateway and a React frontend.</p><div class="project-tags"><span>Node.js</span><span>Express</span><span>React</span><span>MongoDB</span><span>API Gateway</span></div><a class="project-link" href="https://github.com/Dolores-12/mini-microservices-store" target="_blank" rel="noreferrer">Explore project <span>↗</span></a></div></article>
+        <article class="project-card"><div class="project-art banking-art"><div class="art-topline"><span>FINTECH</span><span>02 / 04</span></div><div class="bank-card"><small>DOL BANK</small><div class="bank-chip"></div><strong>₦ 15,000.00</strong><span>ACCOUNT OVERVIEW</span><div class="bank-lines"><i></i><i></i><i></i></div></div><div class="art-label">AUTH · ACCOUNTS · TRANSFERS</div></div><div class="project-body"><div class="project-meta"><span class="project-type">BACKEND / FULL STACK</span></div><h3>Digital Banking App</h3><p>A banking workflow project covering registration, JWT login, identity onboarding, account creation, transfers, and transaction history.</p><div class="project-tags"><span>Node.js</span><span>JWT</span><span>PostgreSQL</span><span>REST API</span></div><a class="project-link" href="https://github.com/Dolores-12" target="_blank" rel="noreferrer">Find on GitHub <span>↗</span></a></div></article>
+        
+<div class="project-art student-art">
+  <img
+    src="assets/studentMS.png"
+    alt="Student Management System student registration form"
+    class="project-cover"
+  />
+</div>
+<div class="project-body"><div class="project-meta"><span class="project-type">WEB APPLICATION</span></div><h3>Student Management System</h3><p>A student records application built to practise CRUD workflows, frontend-to-backend communication, and API routing.</p><div class="project-tags"><span>React</span><span>Express</span><span>REST API</span><span>CRUD</span></div><a class="project-link" href="https://github.com/Dolores-12" target="_blank" rel="noreferrer">Find on GitHub <span>↗</span></a></div></article>
+        <article class="project-card"><div class="project-art inventory-art"><div class="art-topline"><span>RETAIL OPERATIONS</span><span>04 / 04</span></div><div class="inventory-ui"><div class="inventory-title"><span>BUKKU</span><b>Inventory</b></div><div class="inventory-bars"><i style="height:38%"></i><i style="height:64%"></i><i style="height:48%"></i><i style="height:86%"></i><i style="height:57%"></i><i style="height:74%"></i><i style="height:93%"></i></div><div class="inventory-table"><i></i><i></i><i></i></div></div><div class="art-label">STOCK TRACKING · INVENTORY</div></div><div class="project-body"><div class="project-meta"><span class="project-type">BUSINESS APPLICATION</span></div><h3>Bukku Supermarket Inventory</h3><p>A supermarket inventory management app focused on product and stock workflows for a retail setting.</p><div class="project-tags"><span>JavaScript</span><span>Inventory</span><span>Data management</span></div><a class="project-link" href="https://github.com/Dolores-12" target="_blank" rel="noreferrer">Find on GitHub <span>↗</span></a></div></article>
+      </div>
+    </section>
+
+    <section class="journey-section" id="journey"><div class="section-wrap section-block journey-grid">
+      <div class="section-heading"><p class="eyebrow">MY JOURNEY</p><h2>Different experience.<br><em>One curious mind.</em></h2><p class="section-intro">My background has shaped the way I approach technology: carefully, systematically, and with people in mind.</p></div>
+      <div class="timeline">
+        <article class="timeline-item"><span class="timeline-dot"></span><small>2026</small><h3>Software Development Graduate</h3><p>Completed software development training at TS Academy and built practical projects, including a team microservices e-commerce capstone.</p></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><small>CLOUD</small><h3>AWS Solutions Architect – Associate</h3><p>Earned AWS Solutions Architect certification, strengthening my understanding of cloud architecture and foundational cloud services.</p></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><h3>Medical Laboratory Scientist</h3><p>Built a foundation in accuracy, documentation, process discipline, teamwork, and careful problem-solving in a clinical environment.</p></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><h3>Digital Witch — Customer & IT Support Training</h3><p>Developed customer communication, troubleshooting, and support skills that complement my technical work.</p></article>
+      </div>
+    </div></section>
+
+    <section class="section-wrap section-block" id="contact"><div class="contact-panel"><div class="contact-orb"></div><div class="contact-copy"><p class="eyebrow">LET'S CONNECT</p><h2>Have a role where I can <em>learn and contribute?</em></h2><p>I'm interested in junior backend and frontend developer opportunities, internships, and collaborative projects.</p><a class="button button-light" href="mailto:doloreschibuzor@gmail.com">Contact me <span>↗</span></a></div><div class="contact-details"><a href="mailto:doloreschibuzor@gmail.com"><span>Email</span><strong>doloreschibuzor@gmail.com</strong><b>↗</b></a><a href="tel:+2348106214533"><span>Phone</span><strong>+234 810 621 4533</strong><b>↗</b></a><a href="https://www.linkedin.com/in/dolores-onwugbufor/" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>Connect professionally</strong><b>↗</b></a><a href="https://github.com/Dolores-12" target="_blank" rel="noreferrer"><span>GitHub</span><strong>Explore my code</strong><b>↗</b></a></div></div></section>
+  </main>
+  <footer class="site-footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">D</span><span>Dolores<span class="brand-dot">.</span></span></a><p>Built with curiosity and a commitment to keep learning.</p><span>© <span id="year"></span> Dolores Onwugbufor</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
